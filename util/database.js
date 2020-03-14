@@ -2,10 +2,10 @@ const mysql = require('mysql2');
 
 // connect to a database peoplebook running on your localmachine
 const pool = mysql.createPool({
-    host: ' remotemysql.comt',
+    host: 'remotemysql.com',
     user: 'lshZEicHnk',
     database: 'lshZEicHnk',
-    password: 'hCeJcjtCq1'
+    password: 'WqYoOnzCgR'
 });
 
 module.exports = pool.promise();
