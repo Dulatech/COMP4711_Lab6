@@ -1,0 +1,60 @@
+    {{>header}}
+
+<div class="dirform">
+        <h2>
+            Artist Directroy
+        </h2>
+        
+        <div id = "Dir">
+            <form id = "myForm" action="/artists/search" method="GET">
+                <div id="searchForm">
+                    <input id="searchIn" name = "search" value="{{iniS}}" type="text"> 
+                    <button id= "search">Search</button>     
+                </div>
+            </form>
+            <div id = 'buttons'>
+               
+                <button onclick="showDiv()" id= "addP">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/dir.js"></script>
+   
+    <div id = "TheAdder">
+        <form id = "myForm" action="/artists/add" method="POST">
+            <input type="text" name="Name" placeholder="Artist Name" maxlength="40" required>       
+
+            <input type="text" name="About" placeholder="About Artist" maxlength="40" required>       
+
+            <input type="text" name="URL" placeholder="Image url" required> 
+           <button id= "mainAdd">Add</button>
+        </form>
+        
+        
+
+    </div>
+
+    <div class="dircont">
+    
+            <ul id = "list">
+                {{#each artist}}
+                    <li>
+                        <div id="person">
+                            <img id="myImg" src="{{this.imageURL}}" onError = "noValidImg(this)" alt="" >
+                            <div id="info">
+                                <p id="name">{{this.name}}</p>
+                                <p>{{this.about}}</p>
+                                </div>
+                                <div id="delCont">
+                                    <form>
+                                    <button id="mainDel" formaction="/artists/delete/{{this.id}}">Delete</button>
+                                    </form>
+                                    </div>
+                                    </div>
+                                    </li>
+                {{/each}}
+            </ul>
+    </div>
+    
+

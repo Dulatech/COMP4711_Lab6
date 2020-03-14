@@ -1,0 +1,80 @@
+#logdiv{
+    background-color: rgb(243, 243, 240);
+    width: 400px;
+    margin: auto;
+}
+
+#centerdiv{
+    width: 83%;
+    margin: 0 auto;
+}
+
+#title{
+    padding-top: 35px;
+    color: rgb(167, 167, 167);
+}
+
+#name{
+    border: 0pt;
+    width: 250px;
+    height: 45px;
+    padding: 0;
+    padding-left: 40px;
+    background-image: url("https://devshift.biz/wp-content/uploads/2017/04/profile-icon-png-898.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-style: italic; 
+  color: black;
+  outline-width: 0;
+}
+#password{
+    border: 0pt;
+    width: 250px;
+    height: 45px;
+    padding: 0;
+    padding-left: 40px;
+    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698630-icon-114-lock-512.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-style: italic; 
+  color: black;
+  outline-width: 0;
+   
+}
+
+#login{
+    width: 100%;
+    border: 0;
+    width: 330px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: rgb(246, 204, 18);
+    margin-bottom: 40px;
+}
+#inpdiv{
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1pt solid rgb(206, 206, 206);
+    margin-bottom: 15px;
+}
+
+#graydev{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin: auto;
+    border: 0.2pt solid rgb(206, 206, 206);
+}
+
+#whitedev{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0.5pt solid rgb(255, 255, 255);
+}

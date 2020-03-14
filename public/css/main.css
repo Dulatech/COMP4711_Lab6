@@ -1,0 +1,30 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+a { color: inherit; }
+
+#logout{
+    float: right;
+    height: 100%;
+    width: 75px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(170, 170, 170);
+    margin-bottom: 40px;
+    border: 0;
+}
+
+#logoutform{
+    float: right;
+    height: 30px;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(246, 204, 18);
+    height: 30px;
+    padding: 5px;
+    padding-right: 40px;
+    margin-bottom: 60px;
+}
