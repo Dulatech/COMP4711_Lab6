@@ -1,15 +1,15 @@
 .dirform {
-    
+
     margin: auto;
-    
+
     border: 1pt solid rgb(231, 231, 231);
     padding: 20pt;
     padding-top: 0;
     width: 550px;
 }
 
-#buttons{
-    display:inline-block;
+#buttons {
+    display: inline-block;
 }
 
 form {
@@ -26,15 +26,15 @@ input {
     text-align: center;
     width: 100%;
     height: 20pt;
-    border:1px solid rgb(231, 231, 231);
+    border: 1px solid rgb(231, 231, 231);
     border-radius: 5px;
 }
 
-#searchForm{
+#searchForm {
     width: 70%;
     display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .dircont {
@@ -45,7 +45,7 @@ input {
     width: 450px;
 }
 
-img{
+img {
     border-radius: 10%;
     width: 85px;
     height: 85px;
@@ -54,29 +54,28 @@ img{
 #myForm {
     width: 90%;
     margin: auto;
-    display:inline;
+    display: inline;
 }
 
-#info{
+#info {
     font-size: 10pt;
     display: inline-block;
     padding-left: 5pt;
     margin: 0;
     vertical-align: top;
     top: 50%
-    
 }
 
-#info p{
+#info p {
     margin: 0;
 }
 
-#list{
+#list {
     list-style-type: none;
     padding: 0pt;
 }
 
-#person{
+#person {
     width: 100%;
     margin: auto;
     padding: 8pt;
@@ -86,19 +85,19 @@ img{
 
 #person:hover {
     background-color: rgb(240, 240, 240);
-  }
-
-#name{
-      font-weight: bold;
 }
 
-#Dir{
-    display:inline;
+#name {
+    font-weight: bold;
+}
+
+#Dir {
+    display: inline;
     width: 100%;
-    
+
 }
 
-#search{
+#search {
     margin-left: 5px;
     font-family: 'Nunito', sans-serif;
     height: 23pt;
@@ -107,16 +106,16 @@ img{
     border: none;
 }
 
-#searchIn{
-    float:left;
+#searchIn {
+    float: left;
     width: 400px;
 }
 
-#search:hover {     
-    background-color:rgb(206, 206, 206);    
+#search:hover {
+    background-color: rgb(206, 206, 206);
 }
 
-#addP{
+#addP {
     margin-left: 5px;
     font-family: 'Nunito', sans-serif;
     height: 23pt;
@@ -125,8 +124,8 @@ img{
     border: none;
 }
 
-#addP:hover {     
-    background-color:rgb(206, 206, 206);    
+#addP:hover {
+    background-color: rgb(206, 206, 206);
 }
 
 #TheAdder {
@@ -136,7 +135,7 @@ img{
     width: 350px;
 }
 
-#mainAdd{
+#mainAdd {
     margin: 0 auto;
     font-family: 'Nunito', sans-serif;
     height: 23pt;
@@ -145,19 +144,19 @@ img{
     border: none;
 }
 
-#mainAdd:hover {     
-    background-color:rgb(206, 206, 206);    
+#mainAdd:hover {
+    background-color: rgb(206, 206, 206);
 }
 
-#delCont{
+#delCont {
     float: right;
     position: relative;
     top: 50%;
     transform: translateY(80%);
-    margin-right:20px;
+    margin-right: 20px;
 }
 
-#mainDel{
+#mainDel {
     font-family: 'Nunito', sans-serif;
     background-color: rgb(233, 2, 2);
     border-radius: 4px;
@@ -167,14 +166,14 @@ img{
     color: white;
 
 
-    
+
 }
 
-#mainDel:hover{
+#mainDel:hover {
     background-color: rgb(175, 1, 1);
 }
 
-#searchForm{
-    display:inline;
-    margin:0;
+#searchForm {
+    display: inline;
+    margin: 0;
 }
