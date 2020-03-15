@@ -1,50 +1,55 @@
-#logdiv{
+#logdiv {
     background-color: rgb(243, 243, 240);
     width: 400px;
     margin: auto;
 }
 
-#centerdiv{
+#centerdiv {
     width: 83%;
     margin: 0 auto;
 }
 
-#title{
+#title {
     padding-top: 35px;
     color: rgb(167, 167, 167);
 }
 
-#name{
+#name {
     border: 0pt;
     width: 250px;
     height: 45px;
     padding: 0;
     padding-left: 40px;
-    background-image: url("https://devshift.biz/wp-content/uploads/2017/04/profile-icon-png-898.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 30px;
-  font-style: italic; 
-  color: black;
-  outline-width: 0;
+    font-style: italic;
+    color: black;
+    outline-width: 0;
 }
-#password{
-    border: 0pt;
-    width: 250px;
-    height: 45px;
-    padding: 0;
-    padding-left: 40px;
-    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698630-icon-114-lock-512.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 30px;
-  font-style: italic; 
-  color: black;
-  outline-width: 0;
-   
+#nameIMG {
+    width: 30px;
+    position: absolute; 
+    left: 15px;
+    padding-top: 8px;
 }
 
-#login{
+#password {
+    border: 0pt;
+    width: 250px;
+    height: 45px;
+    padding: 0;
+    padding-left: 40px;
+    font-style: italic;
+    color: black;
+    outline-width: 0;
+
+}
+#passwordIMG {
+    width: 30px;
+    position: absolute; 
+    left: 15px;
+    padding-top: 8px;
+}
+
+#login {
     width: 100%;
     border: 0;
     width: 330px;
@@ -55,7 +60,9 @@
     background-color: rgb(246, 204, 18);
     margin-bottom: 40px;
 }
-#inpdiv{
+
+#inpdiv {
+    position: relative;
     padding: 0;
     padding-left: 15px;
     padding-right: 15px;
@@ -65,7 +72,7 @@
     margin-bottom: 15px;
 }
 
-#graydev{
+#graydev {
     padding: 0;
     margin: 0;
     width: 100%;
@@ -73,8 +80,13 @@
     border: 0.2pt solid rgb(206, 206, 206);
 }
 
-#whitedev{
+#whitedev {
     margin-top: 30px;
     margin-bottom: 30px;
     border: 0.5pt solid rgb(255, 255, 255);
+}
+
+#error {
+    text-align: center;
+    color: rgb(233, 2, 2);
 }

@@ -14,7 +14,6 @@ function getAllArtists() {
 // Gets a specific individual from the database
 function getArtists(search) {
     return db.execute("Select * from artist where name like '%" + search +"%' or about like '%" + search +"%'");
-    // return db.execute("Select * from artist where name like \'\%" + search + "\%\' OR about like \'\%"+search+"\%\'");
 }
 
 function deleteArtist(id) {

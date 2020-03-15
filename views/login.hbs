@@ -1,17 +1,19 @@
 <div id="logdiv">
-        <div id="centerdiv">
+    <div id="centerdiv">
         <h3 id="title">Member Login</h3>
         <hr id="whitedev">
         <form id="logform" action="/login" method="POST">
             <div id="inpdiv">
-            <input id="name" type="text" name="name" placeholder="username">
-            <hr id="graydev">
-            <input id="password" type="password" name="password" placeholder="password">
-            
-        </div>
-        <br>
+                <input id="name" type="text" name="name" placeholder="username">
+                <img id="nameIMG" src="https://devshift.biz/wp-content/uploads/2017/04/profile-icon-png-898.png" />
+                <hr id="graydev">
+                <input id="password" type="password" name="password" placeholder="password">
+                <img id="passwordIMG" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698630-icon-114-lock-512.png" />
+            </div>
+            <p id="error">{{errorLog}}</p>
+            <br>
             <button id="login" class="btn" type="submit">Login</button>
-            
+
         </form>
     </div>
-    </div>
+</div>

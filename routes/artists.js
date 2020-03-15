@@ -9,10 +9,6 @@ router.post('/logout', artistController.transport);
 
 router.get('/artists', artistController.getAllArtists);
 
-// router.get('/artist/add', artistController.getAddPeople);
-
-// router.get('/people/:id', peopleController.getPeople);
-
 router.post('/artists/add', artistController.postAddArtists)
 
 router.get('/artists/delete/:id', artistController.postDeleteArtists)
